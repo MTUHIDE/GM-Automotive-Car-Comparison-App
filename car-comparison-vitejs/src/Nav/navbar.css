@@ -1,0 +1,34 @@
+/* FILEPATH: /Users/pech/Documents/GitHub/GM-Automotive-Car-Comparison-App/car-comparison-vitejs/src/Nav/navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-nav li {
+  margin-right: 1rem;
+}
+
+.navbar-nav li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+  color: #555;
+}
