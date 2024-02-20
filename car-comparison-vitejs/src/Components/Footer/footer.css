@@ -1,0 +1,54 @@
+/* FILEPATH: /Users/pech/Documents/GitHub/GM-Automotive-Car-Comparison-App/car-comparison-vitejs/src/Components/Footer/footer.css */
+
+/* Footer container */
+.footer {
+    background-color: #0174bb;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+/* Footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer links */
+.footer-links {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer logo */
+.footer-logo {
+    width: '80px'; 
+    height: '80px';
+    padding-left: 30px; /* Added padding to the left */
+}
+
+/* Footer social icons */
+.footer-social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social-icon {
+    color: #333;
+    font-size: 14px; /* Increased font size */
+    text-decoration: none;
+    width: '30px';
+    height: '30px';
+}
+
+/* Footer copyright */
+.footer-copyright {
+    font-size: 14px;
+    color: #ffffff;
+}
