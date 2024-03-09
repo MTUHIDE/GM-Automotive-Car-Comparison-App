@@ -12,4 +12,18 @@ class Car(models.Model):
     image = models.CharField(max_length=1000)
     def __str__(self):
         return self.make + " " + self.model + " " + str(self.year)
-    
+
+class Truck(models.Model):
+	name = models.CharField(max_length = 50)
+	price = models.FloatField()
+	transmission = models.CharField(max_length = 30)
+	rating = models.IntegerField()
+	engine = models.CharField(max_length = 30)
+	fuel = models.CharField(max_length = 30)
+	drive = models.CharField(max_length = 5)
+	horsepower = models.FloatField()
+	mileage = models.FloatField()
+	color = models.CharField(max_length = 30)
+	trim = models.CharField(max_length = 30)
+	image = models.FilePathField()
+	inventory = models.IntegerField() 
