@@ -7,19 +7,18 @@ function Navbar() {
         <nav>
             <div className='navbar'>
                 <div className='navbar-brand'>
-                    <img src='/vite.svg' alt='vite logo' width='50' height='50' />
-                    GM Car Comparison
+                    <img src='/gm-logo.png' alt='GM Logo' width='50' height='50' />
                 </div>
                 <div>
                     <ul className='navbar-nav'>
                         <li>
-                            <a to='/'>Home</a>
+                            <Link to='/home'>Home</Link>
                         </li>
                         <li>
-                            <a to='/contact'>Contact</a>
+                            <Link to='/contact'>Contact</Link>
                         </li>
                         <li>
-                            <a to='/about'>About</a>
+                            <Link to='/about'>About</Link>
                         </li>
                     </ul>
                 </div>
