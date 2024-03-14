@@ -1,4 +1,5 @@
 import './CompareCarBox.css';
+import CompareForm from '../Compare/CompareForm.jsx'
 
 export default function CarBox()
 {

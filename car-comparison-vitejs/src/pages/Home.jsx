@@ -5,11 +5,13 @@ import CompareCarBox from '../components/CompareCarBox/CompareCarBox.jsx'
 
 export default function Home() {
     return (
-        <div>
+        <div className="home">
             <Navbar />
             <h3 className="car-comparison-h3">Car Comparison Tool</h3>
             <CompareCarBox />
-            <button className="compare-button">Compare</button>
+            <div className="compare-button-container">
+                <button className="compare-button">Compare</button>
+            </div>
         </div>
     )
 }
