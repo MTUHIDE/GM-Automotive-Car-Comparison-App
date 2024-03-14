@@ -1,0 +1,15 @@
+.car-box-container
+{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.car-box
+{
+    display: flex;
+    width: 300px;
+    min-height: 400px;
+    justify-content: center;
+    border-style: solid;
+}

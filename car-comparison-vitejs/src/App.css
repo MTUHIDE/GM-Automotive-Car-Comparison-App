@@ -1,3 +1,21 @@
 #root {
   flex: 1;
 }
+
+.car-comparison-h3
+{
+  text-align: center;
+}
+
+.compare-button
+{
+  display:flex;
+  justify-self: center;
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
