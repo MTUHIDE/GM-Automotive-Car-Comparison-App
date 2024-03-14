@@ -1,15 +1,22 @@
 .car-box-container
 {
     display: flex;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .car-box
 {
+    margin-top: 20px;
     display: flex;
-    width: 300px;
+    flex-basis: 300px;
     min-height: 400px;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     border-style: solid;
+}
+
+.car-box > img
+{
+    margin-top: 0;
 }

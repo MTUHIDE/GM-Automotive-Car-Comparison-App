@@ -9,7 +9,6 @@ export default function Test () {
         <div>
             <Navbar />
             <CompareForm />
-            <Footer />
         </div>
     )
 }

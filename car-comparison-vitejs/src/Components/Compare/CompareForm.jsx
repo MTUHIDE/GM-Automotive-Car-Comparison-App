@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ReactDOM from 'react-dom'
+import './CompareForm.css'
 
 function CompareForm() {
     const [myCar, setMyCar] = useState("");
@@ -14,15 +14,26 @@ function CompareForm() {
     }
 
     return (
-        <form onSubmit={handleSubmit}>
+        <form className="car-selector-form" onSubmit={handleSubmit}>
             <label>
-            Test
             <select value={myCar} onChange = {handleChange}>
-                <option value = "Select" selected>Select</option>
+                <option defaultValue="Make">Make</option>
                 <option value = "Ford">Ford</option>
             </select>
             </label>
-            <input type ="submit" value="Submit" />
+            <label>
+            <select>
+                <option defaultValue="Model">Model</option>
+                <option value = "Focus">Focus</option>
+            </select>
+            </label>
+            <label>
+            <select>
+                <option defaultValue="Year">Year</option>
+                <option value = "1999">1999</option>
+            </select>
+            </label>
+
         </form>
     )
 }
