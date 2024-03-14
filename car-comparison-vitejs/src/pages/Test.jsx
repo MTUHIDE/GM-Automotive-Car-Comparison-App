@@ -1,6 +1,5 @@
 import Navbar from '../components/Nav/Navbar.jsx'
-import Footer from '../components/Footer/Footer.jsx'
-import CompareForm from '../Components/Compare/CompareForm.jsx'
+import CompareForm from '../components/CompareForm/CompareForm.jsx'
 
 
 
