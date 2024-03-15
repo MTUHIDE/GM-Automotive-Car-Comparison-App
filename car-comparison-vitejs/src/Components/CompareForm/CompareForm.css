@@ -1,10 +1,17 @@
 .car-selector-form
 {   
-    margin: auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 16px;
+    border-style: solid;
+    flex: 1;
+    flex-basis: 100px;
+    width: 300px;
+    align-items: center;
+    border-radius: 12px;
+    border-width: 0.9px;
+    padding: 16px;
 }
 
 .car-selector-form select
@@ -20,5 +27,6 @@
     border-bottom-width: 4px;
     font-family: inherit;
     text-align: center;
+    background-color: white;
 
 }

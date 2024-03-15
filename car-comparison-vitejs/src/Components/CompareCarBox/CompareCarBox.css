@@ -7,15 +7,12 @@
 
 .car-box
 {
+    display: flex;
     margin-top: 20px;
     display: flex;
-    flex-basis: 300px;
     min-height: 400px;
     flex-direction: column;
     align-items: center;
-    border-style: solid;
-    border-radius: 12px;
-    border-width: 0.9px;
 }
 
 .car-box > img

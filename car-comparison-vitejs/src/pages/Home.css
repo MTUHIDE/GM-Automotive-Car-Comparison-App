@@ -1,0 +1,25 @@
+.car-comparison-h1
+{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.compare-button
+{
+  font-family: inherit;
+	color: white;
+  border: none;
+  width: 120px;
+	border-radius: 8px;
+	padding: 10px;
+  background-color: #11365F;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.compare-button-container
+{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
