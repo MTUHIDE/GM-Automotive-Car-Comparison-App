@@ -1,3 +1,10 @@
+/* Main container with button and forms */
+.car-comparison-container
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .car-box-container
 {
     display: flex;
@@ -7,9 +14,9 @@
 
 .car-box
 {
+    display: flex;
     flex-direction: column;
     flex-basis: 300px;
-    display: flex;
     margin-top: 20px;
 }
 
@@ -17,6 +24,8 @@
 {
     margin-top: 0;
     align-self: center;
+    width: 180px;
+    height: 126px;
 }
 
 /* CSS for form */
@@ -26,8 +35,6 @@
     justify-content: center;
     flex-direction: column;
     gap: 16px;
-
-
 
     border-style: solid;
     align-items: center;
@@ -61,20 +68,20 @@
 /* CSS for button */
 .compare-button
 {
-  font-family: inherit;
-	color: white;
-  border: none;
-  width: 120px;
+    font-family: inherit;
+    color: white;
+    border: none;
+    width: 120px;
 	border-radius: 8px;
 	padding: 10px;
-  background-color: #11365F;
+    background-color: #11365F;
 	cursor: pointer;
 	outline: inherit;
 }
 
 .compare-button-container
 {
-  margin: 30px;
-  display: flex;
+    margin: 30px;
+    display: flex;
   justify-content: center;
 }
