@@ -1,4 +1,4 @@
-import './CompareCarBox.css';
+import './CompareCar.css';
 import CarBox from './CarBox.jsx'
 
 export default function CompareCarBox()

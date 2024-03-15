@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './CompareForm.css'
+import './CompareCar.css'
 
 function CompareForm() {
     const [myCar, setMyCar] = useState("");

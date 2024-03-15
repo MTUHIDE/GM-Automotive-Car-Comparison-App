@@ -1,3 +1,25 @@
+.car-box-container
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.car-box
+{
+    display: flex;
+    margin-top: 20px;
+    min-height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-box > img
+{
+    margin-top: 0;
+}
+
+/* CSS for form */
 .car-selector-form
 {   
     display: flex;
@@ -29,4 +51,25 @@
     text-align: center;
     background-color: white;
 
+}
+
+/* CSS for button */
+.compare-button
+{
+  font-family: inherit;
+	color: white;
+  border: none;
+  width: 120px;
+	border-radius: 8px;
+	padding: 10px;
+  background-color: #11365F;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.compare-button-container
+{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
 }

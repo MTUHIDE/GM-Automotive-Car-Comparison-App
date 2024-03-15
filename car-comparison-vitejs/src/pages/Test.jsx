@@ -1,5 +1,5 @@
 import Navbar from '../components/Nav/Navbar.jsx'
-import CompareForm from '../components/CompareForm/CompareForm.jsx'
+import CompareForm from '../components/CompareCar/CompareForm.jsx'
 
 
 

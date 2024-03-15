@@ -1,5 +1,6 @@
 import Navbar from '../components/Nav/Navbar.jsx'
-import CompareCarBox from '../components/CompareCarBox/CompareCarBox.jsx'
+import CompareCarBox from '../components/CompareCar/CompareCarBox.jsx'
+import CompareCarButton from '../components/CompareCar/CompareCarButton.jsx'
 import './Home.css'
 
 export default function Home() {
@@ -8,9 +9,7 @@ export default function Home() {
             <Navbar />
             <h1 className="car-comparison-h1">Select Two Vehicles to Compare</h1>
             <CompareCarBox />
-            <div className="compare-button-container">
-                <button className="compare-button">Compare</button>
-            </div>
+            <CompareCarButton />
         </div>
     )
 }
