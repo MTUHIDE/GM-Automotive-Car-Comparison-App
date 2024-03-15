@@ -7,16 +7,16 @@
 
 .car-box
 {
+    flex-direction: column;
+    flex-basis: 300px;
     display: flex;
     margin-top: 20px;
-    min-height: 400px;
-    flex-direction: column;
-    align-items: center;
 }
 
 .car-box > img
 {
     margin-top: 0;
+    align-self: center;
 }
 
 /* CSS for form */
@@ -26,25 +26,30 @@
     justify-content: center;
     flex-direction: column;
     gap: 16px;
+
+
+
     border-style: solid;
-    flex: 1;
-    flex-basis: 100px;
-    width: 300px;
     align-items: center;
     border-radius: 12px;
     border-width: 0.9px;
     padding: 16px;
 }
 
-.car-selector-form select
+.car-selector-form label
 {
-    width: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.car-selector-form select
+{   flex: 1;
     padding: 6px 10px;
     margin: 10px 0;
     border-top: none;
     border-right: none;
     border-left: none;
-    display: block;
     border-bottom-color: #11365F;
     border-bottom-width: 4px;
     font-family: inherit;
