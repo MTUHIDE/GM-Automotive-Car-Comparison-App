@@ -1,7 +1,6 @@
 import Navbar from '../components/Nav/Navbar.jsx'
 import CompareCarBox from '../components/CompareCar/CompareCarBox.jsx'
 import CompareCarButton from '../components/CompareCar/CompareCarButton.jsx'
-import './Home.css'
 
 export default function Home() {
     return (
