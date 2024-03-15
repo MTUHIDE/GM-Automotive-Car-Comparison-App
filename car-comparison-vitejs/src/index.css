@@ -4,4 +4,7 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }

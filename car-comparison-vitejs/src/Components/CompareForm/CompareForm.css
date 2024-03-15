@@ -9,9 +9,16 @@
 
 .car-selector-form select
 {
-    width: 100%;
+    width: 200px;
     padding: 6px 10px;
     margin: 10px 0;
-    border: 1px solid #ddd;
+    border-top: none;
+    border-right: none;
+    border-left: none;
     display: block;
+    border-bottom-color: #11365F;
+    border-bottom-width: 4px;
+    font-family: inherit;
+    text-align: center;
+
 }

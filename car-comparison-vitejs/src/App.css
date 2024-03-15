@@ -9,14 +9,13 @@
 
 .compare-button
 {
-  font-family: "Overpass", sans-serif;
+  font-family: inherit;
 	color: white;
   border: none;
   width: 120px;
 	border-radius: 8px;
 	padding: 10px;
   background-color: #11365F;
-  font-weight: bold;
 	cursor: pointer;
 	outline: inherit;
 }

@@ -10,7 +10,7 @@ function Navbar() {
                     <img src='/gm-logo.png' alt='GM Logo' width='50' height='50' />
                 </div>
                 <div>
-                    <ul className='navbar-nav'>
+                    <ul className='navbar-nav overpass'>
                         <li>
                             <Link to='/home'>Home</Link>
                         </li>
