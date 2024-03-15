@@ -16,7 +16,7 @@
 {
     display: flex;
     flex-direction: column;
-    flex-basis: 300px;
+    flex-basis: 400px;
     margin-top: 20px;
 }
 
@@ -24,8 +24,8 @@
 {
     margin-top: 0;
     align-self: center;
-    width: 180px;
-    height: 126px;
+    width: 280x;
+    height: 196px;
 }
 
 /* CSS for form */
@@ -35,6 +35,7 @@
     justify-content: center;
     flex-direction: column;
     gap: 16px;
+    flex-grow: 1;
 
     border-style: solid;
     align-items: center;
@@ -48,10 +49,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-grow: 1;
+    max-height: 70px;
 }
 
 .car-selector-form select
 {   flex: 1;
+    font-size: 18px;
     padding: 6px 10px;
     margin: 10px 0;
     border-top: none;
@@ -69,9 +73,11 @@
 .compare-button
 {
     font-family: inherit;
+    font-size: 20px;
     color: white;
     border: none;
     width: 120px;
+    margin: 20px;
 	border-radius: 8px;
 	padding: 10px;
     background-color: #11365F;
