@@ -1,0 +1,8 @@
+In order to run the dockerized MySQL database, you'll
+need to create the following files. This was not included in the repository as it contains sensitive informations that should not be available to the public.
+
+.env
+credentials.sql
+password.txt
+
+Template for each can be found in /RequireFilesTemplate

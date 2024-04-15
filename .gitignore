@@ -3,3 +3,4 @@ car-comparison-vitejs/yarn.lock
 DjangoAPI/MySQL/password.txt
 DjangoAPI/MySQL/my.cnf
 DjangoAPI/MySQL/.env
+DjangoAPI/MySQL/credentials.sql
