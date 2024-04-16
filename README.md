@@ -4,24 +4,30 @@ Our project aims to provide an online interface for the general public to compar
 
 <h2>Technical Details</h2>
 Technology Used
-- React: primary front-end coding library
-- Vite.js: primary coding framework as react-create-app was deprecated
-- Yarn: package manager
-- JavaScript: to create an interactive website
-- Python
-- Node.js
-- Django: primary back-end coding library
-- SQLite3: to create and maintain our database of vehicles, no longer in use
-- MySQL Workbench: to create and maintain our database of vehicles
-- BeautifulSoup (Python): no longer in use as it couldn't pull customized tags
-- Selenium: web scraping
-- Docker: to containerize the database
+<ol>
+
+<li>React: primary front-end coding library
+<li>Vite.js: primary coding framework as react-create-app was deprecated
+<li>arn: package manager
+<li>JavaScript: to create an interactive website
+<li>Python
+<li>Node.js
+<li>Django: primary back-end coding library
+<li>SQLite3: to create and maintain our database of vehicles, no longer in use
+<li>MySQL Workbench: to create and maintain our database of vehicles
+<li>BeautifulSoup (Python): no longer in use as it couldn't pull customized tags
+<li>Selenium: web scraping
+<li>Docker: to containerize the database
+</ol>
 
 <h2>Instructions for Running Locally</h2>
 Go to your preferred repository sharing software (Git, GitBash, GitHub, GitLab, Bitbucket, or GitHub Desktop)
 Clone the GitHub repository into a folder on your local machine with these commands:
-- cd [working_directory]
-- git clone [repository_link]
+<br>
+<ul> 
+  <li>cd [working_directory]
+ <li>git clone [repository_link]
+</ul>
 Once you have the project on your local machine, open a terminal. Enter the commands cd car-comparison-vitejs and yarn run dev.
 If this step does not work, enter the command yarn, which will provide a local host link. Copy the link and paste it into your preferred browser.
 
